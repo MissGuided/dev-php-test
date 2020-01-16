@@ -16,8 +16,5 @@ All configuration for the LAMP can be found in the `.env` file including the MyS
 
 ### URLs
 http://localhost - Main url  
-http://localhost:8080 - phpMyAdmin, although Workbench is available   
-http://localhost/test_db.php - Test your DB connection is working   
-
-
+http://localhost:8080 - phpMyAdmin, although Workbench is available    
 
