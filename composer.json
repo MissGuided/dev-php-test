@@ -1,0 +1,12 @@
+{
+  "name": "Missguided/tec-test",
+  "description": "PHP practical technical test",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dave Slack",
+      "email": "david.slack@missguided.com"
+    }
+  ]
+}
