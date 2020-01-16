@@ -1,0 +1,3 @@
+/.idea/
+/docker-compose-lamp/data/mysql/
+/docker-compose-lamp/logs/apache2/
