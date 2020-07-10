@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\User;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
@@ -14,15 +15,16 @@ class UserController extends Controller
      */
     public function showAll()
     {
-        return new JsonResponse([]);
+        return view('user.index', ['users' => User::all()]);
     }
 
     /**
-     * @param User $user
      * @return JsonResponse
      */
-    public function show(User $user)
+    public function show($id)
     {
+        $user = User::where('id', $id)->first();
+
         return new JsonResponse($user->toArray());
     }
 }
