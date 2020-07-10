@@ -1,4 +1,5 @@
 SET time_zone = "+00:00";
+GRANT ALL PRIVILEGES ON *.* TO 'db-user'@'%' WITH GRANT OPTION;
 
 --
 -- Database: `customer_db`
