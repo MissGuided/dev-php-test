@@ -1,5 +1,11 @@
 # PHP practical technical test   
 Create a RESTful API using any PHP libraries, skeletons or frameworks or choose to create with standard PHP.  
+1. Clone the repo
+1. Create a branch from `develop` using your name
+1. Create a standard API
+1. After an hour you will be asked to show your code
+
+NB. This task is for 1 hour and is more about how you go about the task and code quality rather than completing the task
 
 ## Local LAMP Stack    
 To create this project you will need a local LAMP stack, this has been created for you.  
