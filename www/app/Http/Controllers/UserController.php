@@ -3,9 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
-use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
@@ -15,7 +13,9 @@ class UserController extends Controller
      */
     public function showAll()
     {
-        return view('user.index', ['users' => User::all()]);
+        $users = User::all();
+
+        return new JsonResponse($users->toArray());
     }
 
     /**
